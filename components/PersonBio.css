@@ -1,0 +1,97 @@
+.n-container-mw {
+	max-width:1920px;margin:0 auto;left:0;right:0;
+}
+.n-video-container {
+	max-width:1920px;margin:45px auto 0;left:0;right:0;
+}
+.flex-column-mob {
+	flex-direction: column;
+}
+.n-person-quote-copy {
+	max-width:740px;margin:0 auto;left:0;right:0;font-size:32px;line-height:48px;
+}
+.n-person-quote-copy:before {
+	content:'\f10d';font-weight:700;
+	position:absolute;font-size:48px;
+	left:-15px;
+	top:-15px;
+	font-family:'Font Awesome 5 Pro';
+	color:rgba(0,0,0,0.05);
+}
+.n-mw-person-snippets {
+	max-width:100%;width:100%;
+	padding:15px;
+}
+.n-person-bio p {
+	line-height: 1.5rem;
+	font-weight:300;
+	max-width:550px;margin:0 auto 15px auto;
+}
+.play-testimonial-btn {
+	width:48px;height:48px;
+	border-radius:50%;background-color:#5abcbd;
+	color:#fff;z-index:1;
+	margin:0 auto;left:0;right:0;
+	transition:all .2s ease-in-out;
+}
+.play-testimonial-link:hover .play-testimonial-btn {
+	width:56px;height:56px;transition:all .2s ease-in-out;
+	background-color:#51a9aa;
+}
+.play-testimonial-btn i {
+	align-self:center;margin:0 auto;font-size:10px;
+}
+.play-testimonial-link {
+	cursor:pointer;
+	overflow:hidden;transition:all .2s ease-in-out;
+}
+.play-testimonial-link img {
+	transition:all .2s ease-in-out;
+}
+.play-testimonial-link:hover img {
+	transform:scale(1.05);transition:all .2s ease-in-out;
+}
+@media (min-width:768px) {
+    .flex-column-mob {
+		flex-direction: row;
+	}
+}
+@media (min-width:992px) {
+    .n-container-mw {
+		max-width:1100px;margin:0 auto;left:0;right:0;
+	}
+	.n-video-container {
+		max-width:1100px;margin:45px auto 0;left:0;right:0;
+    }
+    .n-mw-person-snippets {
+		max-width:50%;width:100%;
+	}
+}
+@media (min-width:1300px) {
+    .n-container-mw {
+		max-width:1920px;margin:0 auto;left:0;right:0;
+	}
+	.n-video-container {
+		max-width:1920px;margin:45px auto 0;left:0;right:0;
+	}
+	.n-header-character-p {
+		max-width:362px;font-size:34px;line-height:1.5em;text-align:left;
+	}
+	.n-header-character-p-second {
+		max-width:214px;margin-left:0;font-size:34px;line-height:1.5em;text-align:left;
+    }
+    .play-testimonial-btn {
+		width:88px;height:88px;
+		border-radius:50%;background-color:#5abcbd;
+		color:#fff;z-index:1;
+		margin:0 auto;left:0;right:0;
+		transition:all .2s ease-in-out;
+	}
+	.play-testimonial-link:hover .play-testimonial-btn {
+		width:96px;height:96px;transition:all .2s ease-in-out;
+		background-color:#51a9aa;
+	}
+	.play-testimonial-btn i {
+		align-self:center;margin:0 auto;font-size:16px;
+	}
+}

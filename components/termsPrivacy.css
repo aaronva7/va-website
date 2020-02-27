@@ -1,0 +1,15 @@
+.terms-ol {
+	color:#667a7a;
+	font-weight:300;
+}
+.terms-ol ol {
+	counter-reset:item !important;
+	list-style-type: none;
+}
+.terms-ol>ol>li {
+	margin-bottom:1rem !important;
+}
+.terms-ol li:before {
+    content: counters(item, ".") " " !important;
+    counter-increment: item !important;
+}

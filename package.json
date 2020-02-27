@@ -1,0 +1,23 @@
+{
+  "name": "virtualagent-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prod": "next export",
+    "deploy": "next build && next export && rm -rf ./docs && mv ./out ./docs && rm -rf ./out && cp CNAME ./docs && cp .nojekyll ./docs && git add . && git commit -m \"publish\" && git push"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "9.1.1",
+    "react": "16.11.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "16.11.0",
+    "react-ga": "^2.7.0",
+    "react-vertical-timeline-component": "^2.5.0"
+  }
+}
